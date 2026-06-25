@@ -1,0 +1,9 @@
+:root{
+    --cinza-chumbo: #463f3aff;
+    --cinza-verde: #8a817cff;
+    --prata: #bcb8b1ff;
+    --branco: #f4f3eeff;
+}
+body{
+    background: var(--cinza-verde);
+}
