@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montenegrin+Gothic+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root{
     --cinza-chumbo: #463f3aff;
     --cinza-verde: #8a817cff;
     --prata: #bcb8b1ff;
     --branco: #f4f3eeff;
+    --titulo: "Montenegrin Gothic One", serif;
+    --texto:  "Raleway", sans-serif;
 }
 body{
     background: var(--cinza-verde);
+    font-family: var(--texto);
+}
+h1{
+    font-family: var(--titulo); 
 }
