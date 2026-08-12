@@ -23,6 +23,7 @@ header{
     display: flex;
     justify-content: space-around;
     color: var(--prata  );
+    padding: 30px;
 }
 .menu{
     display: flex;
@@ -32,4 +33,8 @@ header{
     color: var(--branco);
     text-transform: uppercase;
     font-size: 14px;
+}
+.img-capa{
+    width: 100%;
+    height: 10%;
 }
