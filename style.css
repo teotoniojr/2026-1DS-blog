@@ -1,40 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Montenegrin+Gothic+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-    --cinza-chumbo: #463f3aff;
-    --cinza-verde: #8a817cff;
-    --prata: #bcb8b1ff;
-    --branco: #f4f3eeff; 
-    --titulo: "Montenegrin Gothic One", serif;
-    --texto:  "Raleway", sans-serif;
+    --preto: #292f36ff;
+    --ciano: #4ecdc4ff;
+    --branco: #ffffffff;    
+    --rosa: #ff6b6bff; 
+    --texto: "Saira", sans-serif;
+    --titulo:"Archivo Black", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0; 
 }
 
 body{
-    background: var(--cinza-verde);
+    background-color: var(--rosa);
     font-family: var(--texto);
 }
 header{
-    background-color: var(--cinza-chumbo);
-    display: flex;
-    justify-content: space-around;
-    color: var(--prata  );
-    padding: 30px;
-}
-.menu{
-    display: flex;
-    list-style: none;
-    gap: 20px;
-    margin: 10px;
+    background-color: var(--preto);
+    text-align: center;
+    padding: 20px;
     color: var(--branco);
-    text-transform: uppercase;
-    font-size: 14px;
 }
-.img-capa{
+.capa{
     width: 100%;
-    height: 10%;
+}
+.caixa-conteudo{
+    margin: 20px;
+    border: 2px dotted;
+    padding: 20px;
+    text-align: center;
+}
+.conteudo-titulo{
+    font-family: var(--titulo);
+    font-size: 32px;
+    color: var(--branco);
+}
+.conteudo-texto{
+    margin: 40px 0;
+    font-family: var(--texto);
 }
