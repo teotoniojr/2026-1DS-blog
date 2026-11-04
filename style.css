@@ -39,6 +39,13 @@ header{
     text-transform: uppercase;
     font-size: 14px;
 }
+.titulo-noticias{
+    font-family: var(--titulo);
+    font-size: 24px;
+    color: var(--prata);
+    text-align: center;
+    margin-top: 20px;
+}
 .noticias{
     margin: 20px 150px;
     display: grid;
@@ -50,6 +57,14 @@ header{
     padding: 20px;
     text-align: center;
 }
+.card:hover{
+    background-color: var(--cinza-chumbo);
+    color: var(--branco);
+    border-color: var(--branco);
+    transition: background-color 0.5s, color 0.5s, boder-color 0.5s;
+    box-shadow: 0px 4px 8px var(--cinza-chumbo);
+}
+
 footer{
     background-color: var(--cinza-chumbo);
     color: var(--prata);
