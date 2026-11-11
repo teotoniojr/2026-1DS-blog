@@ -32,8 +32,8 @@
                     a dia dos brasileiros
                 </p>
                 <div class="botoes">
-                    <button>👍</button>
-                    <button>❤️</button>
+                    <button class="botao-curtida">👍<span>0</span></button>
+                    <button class="botao-amei">❤️<span>0</span></button>
                 </div>
                 <a href=""> Saiba mais ... </a>
             </div>
@@ -45,8 +45,8 @@
                     a dia dos brasileiros
                 </p>
                 <div class="botoes">
-                    <button>👍</button>
-                    <button>❤️</button>
+                    <button class="botao-curtida">👍<span>0</span></button>
+                    <button class="botao-amei">❤️<span>0</span></button>
                 </div>
                 <a href=""> Saiba mais ... </a>
             </div>
@@ -58,8 +58,8 @@
                     a dia dos brasileiros
                 </p>
                 <div class="botoes">
-                    <button>👍</button>
-                    <button>❤️</button>
+                    <button class="botao-curtida">👍<span>0</span></button>
+                    <button class="botao-amei">❤️<span>0</span></button>
                 </div>
                 <a href=""> Saiba mais ... </a>
             </div>
@@ -70,5 +70,16 @@
         <p> Feito por Teotonio Jr ©</p>
     </footer>
 </body>
+<script>
+    const botoes = document.querySelectorAll('.botao-curtida');
+    botoes.forEach(botao => {
+    botao.addEventListener('click', botaoClicado);
+    });
 
+    function botaoClicado(){
+        console.log('Botao clicado')
+        let texto = event.currentTarget.querySelector('span');
+        texto.textContent++
+    }
+</script>
 </html>
